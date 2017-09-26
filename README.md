@@ -12,8 +12,13 @@ Requirements:
 
   - tmux **`>= 2.1`** running inside Linux, Mac, OpenBSD, Cygwin or WSL (Bash on
     Ubuntu on Windows)
+  - Tmux Plugin Manager https://github.com/tmux-plugins/tpm
   - outside of tmux, `$TERM` must be set to `xterm-256color`
 
+First install the Tmux Plugin Manager
+```
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 To install, run the following from your terminal: (you may want to backup your
 existing `~/.tmux.conf` first)
 
